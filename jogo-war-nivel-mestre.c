@@ -18,7 +18,7 @@ struct Territorio {
 void atribuirMissao(char* destino, char* missoes[], int totalMissoes) {
     int indice = rand() % totalMissoes;
     strcpy(destino, missoes[indice]);
-}
+}  
 
 // Function to display the mission
 // Funcao para exibir a missao
