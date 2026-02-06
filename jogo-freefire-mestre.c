@@ -23,7 +23,7 @@ void mostrarComponentes(Componente v[], int n) {
     printf("\n--- COMPONENTES ---\n");
     for (int i = 0; i < n; i++) {
         printf("%s | %s | Prioridade: %d\n",
-               v[i].nome, v[i].tipo, v[i].prioridade);
+            v[i].nome, v[i].tipo, v[i].prioridade);
     }
 }
 
@@ -99,7 +99,7 @@ void buscaBinariaPorNome(Componente v[], int n, char chave[]) {
 
         if (cmp == 0) {
             printf("\nComponente encontrado: %s | %s | Prioridade %d\n",
-                   v[meio].nome, v[meio].tipo, v[meio].prioridade);
+                v[meio].nome, v[meio].tipo, v[meio].prioridade);
             printf("Comparacoes: %d\n", comparacoes);
             return;
         }

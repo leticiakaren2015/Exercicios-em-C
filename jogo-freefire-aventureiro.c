@@ -59,9 +59,9 @@ void listarVetor() {
 
     for (int i = 0; i < totalVetor; i++) {
         printf("%s | %s | %d\n",
-               vetor[i].nome,
-               vetor[i].tipo,
-               vetor[i].quantidade);
+            vetor[i].nome,
+            vetor[i].tipo,
+            vetor[i].quantidade);
     }
 }
 
@@ -180,9 +180,9 @@ void listarLista() {
 
     while (atual != NULL) {
         printf("%s | %s | %d\n",
-               atual->dados.nome,
-               atual->dados.tipo,
-               atual->dados.quantidade);
+            atual->dados.nome,
+            atual->dados.tipo,
+            atual->dados.quantidade);
 
         atual = atual->proximo;
     }
